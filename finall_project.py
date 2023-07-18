@@ -208,3 +208,6 @@ hintword42= Button(root,text="hint",command=hintword4,bg="black",fg="white",font
 hintword42.place(x=460,y=445,width=90,height=30)
 
 root.mainloop()
+
+
+#test
