@@ -6,59 +6,61 @@ root=Tk()
 # root.attributes('-fullscreen',True)
 
 #DEF CORRECT
-def correctword1():
-    if entryword13.get()=="a" and entryword15.get()=="e":
-        messagebox.showinfo("correct","congratulations")
-    else :
-        messagebox.showerror("eror","wrong answer \n try again")
-def correctword2():
-    if entryword22.get()=="p" and entryword24.get()=="l":
-        messagebox.showinfo("correct","congratulations")
-    else :
-        messagebox.showerror("eror","wrong answer \n try again")
-def correctword3():
-    if entryword33.get()=="e" and entryword34.get()=="a":
-        messagebox.showinfo("correct","congratulations")
-    else :
-        messagebox.showerror("eror","wrong answer \n try again")
-def correctword4():
-    if entryword42.get()=="u" and entryword43.get()=="n" and entryword44.get()=="n":
-        messagebox.showinfo("correct","congratulations")
-    else :
-        messagebox.showerror("eror","wrong answer \n try again")
+def correct():
+    if a.get() == "word1":
+        if entryword13.get() == "a" and entryword15.get() == "e":
+            messagebox.showinfo("win","congratulations")
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+    elif a.get() == "word2":
+        if entryword22.get() == "p" and entryword24.get() == "l":
+            messagebox.showinfo("win","congratulations")
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+    elif a.get() == "word3":
+        if entryword33.get() == "e" and entryword34.get() == "a":
+            messagebox.showinfo("win","congratulations")
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+    elif a.get() == "word4":
+        if entryword42.get() == "u" and entryword43.get() == "n" and entryword44.get() == "n":
+            messagebox.showinfo("win","congratulations")
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
 
 #DEF HINT
-def hintword1():
-        if entryword13.get()=="" :
-            text3.set("a") 
-        elif entryword15.get()=="":
-             text5.set("e")
-        else :
-             messagebox.showerror("eror","the whole blanks are fill \n first delete the letters :) ")
-def hintword2():
-        if entryword22.get()=="" :
-            text7.set("p") 
-        elif entryword24.get()=="":
-             text9.set("l")
-        else :
-             messagebox.showerror("eror","the whole blanks are fill \n first delete the letters :) ")
-def hintword3():
-        if entryword33.get()=="" :
-            text13.set("e") 
-        elif entryword34.get()=="":
-             text14.set("a")
-        else :
-             messagebox.showerror("eror","the whole blanks are fill \n first delete the letters :) ")        
-def hintword4():
-        if entryword42.get()=="" :
-            text17.set("u") 
-        elif entryword43.get()=="":
-             text18.set("n")
-        elif entryword44.get()=="":
-             text19.set("n")
-        else :
-             messagebox.showerror("eror","the whole blanks are fill \n first delete the letters :) ")       
-    
+def hintword():
+    if a.get() == "word1":
+        if entryword13.get() == "":
+            text3.set("a")
+        elif entryword15.get() == "":
+            text5.set("e")
+        else:
+            messagebox.showerror("eror","the whole blanks are fill \n first delete the letters")    
+    elif a.get() == "word2":
+        if entryword22.get() == "":
+            text7.set("p")
+        elif entryword24.get() == "":
+            text9.set("l")
+        else:
+            messagebox.showerror("eror","the whole blanks are fill \n first delete the letters")     
+    elif a.get() == "word3":
+        if entryword33.get() == "":
+            text13.set("e")
+        elif entryword34.get() == "":
+            text14.set("a")
+        else:
+            messagebox.showerror("eror","the whole blanks are fill \n first delete the letters") 
+    elif a.get() == "word4":
+        if entryword42.get() == "":
+            text17.set("u")
+        elif entryword43.get() == "":
+            text18.set("n")
+        elif entryword44.get() == "":
+            text19.set("n")
+        else:
+            messagebox.showerror("eror","the whole blanks are fill \n first delete the letters") 
+
 
 #IMAGE
 img5 = ImageTk.PhotoImage(Image.open("nature1.jpg"))
@@ -176,9 +178,9 @@ text19.set("")
 entryword44 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text19)                    
 entryword44.place(x=313,y=410,width=60,height=60)
 
-texttwenty = StringVar()
-texttwenty.set("y")
-entryword45 = Entry(root,font=('Georgia 40'),justify="center",textvariable = texttwenty,state="disabled")                    
+text20 = StringVar()
+text20.set("y")
+entryword45 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text20,state="disabled")                    
 entryword45.place(x=380,y=410,width=60,height=60)
 
 
@@ -186,28 +188,28 @@ entryword45.place(x=380,y=410,width=60,height=60)
 
 
 
-#BUTTON 
-buttonword11 = Button(root,text="answer",command=correctword1,bg="black",fg="white",font="arial",cursor="hand2")
-buttonword11.place(x=460,y=205,width=90,height=30)
-hintword12= Button(root,text="hint",command=hintword1,bg="black",fg="white",font="arial",cursor="hand2")
-hintword12.place(x=460,y=235,width=90,height=30)
+#RADIO BUTTON 
+a=StringVar()
+a.set(True)
 
-buttonword21= Button(root,text="answer",command=correctword2,bg="black",fg="white",font="arial",cursor="hand2")
-buttonword21.place(x=460,y=275,width=90,height=30)
-hintword22= Button(root,text="hint",command=hintword2,bg="black",fg="white",font="arial",cursor="hand2")
-hintword22.place(x=460,y=305,width=90,height=30)
+rb1=Radiobutton(root,variable=a,value="word1")
+rb1.place(x=460,y=220)
 
-buttonword31= Button(root,text="answer",command=correctword3,bg="black",fg="white",font="arial",cursor="hand2")
-buttonword31.place(x=460,y=345,width=90,height=30)
-hintword32= Button(root,text="hint",command=hintword3,bg="black",fg="white",font="arial",cursor="hand2")
-hintword32.place(x=460,y=375,width=90,height=30)
+rb2=Radiobutton(root,variable=a,value="word2")
+rb2.place(x=460,y=290)
 
-buttonword41= Button(root,text="answer",command=correctword4,bg="black",fg="white",font="arial",cursor="hand2")
-buttonword41.place(x=460,y=415,width=90,height=30)
-hintword42= Button(root,text="hint",command=hintword4,bg="black",fg="white",font="arial",cursor="hand2")
-hintword42.place(x=460,y=445,width=90,height=30)
+rb3=Radiobutton(root,variable=a,value="word3")
+rb3.place(x=460,y=360)
+
+rb4=Radiobutton(root,variable=a,value="word4")
+rb4.place(x=460,y=430)
+
+#BUTTON
+btn = Button(root,text="Check Answer",command=correct,font=('Georgia 15'))
+btn.place(x=120,y=650)
+
+btnHint = Button(root,text="Hint",command=hintword,font=('Georgia 15'))
+btnHint.place(x=120,y=695)
+
 
 root.mainloop()
-
-
-#test
