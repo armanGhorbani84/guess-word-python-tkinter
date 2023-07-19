@@ -3,7 +3,7 @@ from tkinter import messagebox
 from PIL import ImageTk,Image
 
 root=Tk()
-# root.attributes('-fullscreen',True)
+root.attributes('-fullscreen',True)
 
 #DEF CORRECT
 def correct():
@@ -63,7 +63,7 @@ def hintword():
 
 
 #IMAGE
-img5 = ImageTk.PhotoImage(Image.open("nature1.jpg"))
+img5 = ImageTk.PhotoImage(Image.open("stars.jpg"))
 lablephoto = Label(image=img5)
 lablephoto.pack()
 
