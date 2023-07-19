@@ -3,7 +3,7 @@ from tkinter import messagebox
 from PIL import ImageTk,Image
 
 root=Tk()
-root.attributes('-fullscreen',True)
+# root.attributes('-fullscreen',True)
 
 #DEF CORRECT
 def correct():
@@ -24,6 +24,16 @@ def correct():
             messagebox.showerror("eror","wrong answer \n try again")
     elif a.get() == "word4":
         if entryword42.get() == "u" and entryword43.get() == "n" and entryword44.get() == "n":
+            messagebox.showinfo("win","congratulations")
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+    elif a.get() == "word5":
+        if entryword51.get() == "e" and entryword52.get() == "r" and entryword53.get() == "r":
+            messagebox.showinfo("win","congratulations")
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+    elif a.get() == "word6":
+        if entryword62.get() == "u" and entryword63.get() == "e" and entryword65.get() == "s":
             messagebox.showinfo("win","congratulations")
         else :
             messagebox.showerror("eror","wrong answer \n try again")
@@ -60,7 +70,24 @@ def hintword():
             text19.set("n")
         else:
             messagebox.showerror("eror","the whole blanks are fill \n first delete the letters") 
-
+    elif a.get() == "word5":
+        if entryword51.get() == "":
+            text21.set("e")
+        elif entryword52.get() == "":
+            text22.set("r")
+        elif entryword53.get() == "":
+            text23.set("r")
+        else:
+            messagebox.showerror("eror","the whole blanks are fill \n first delete the letters") 
+    elif a.get() == "word6":
+        if entryword62.get() == "":
+            text27.set("u")
+        elif entryword63.get() == "":
+            text28.set("e")
+        elif entryword65.get() == "":
+            text30.set("s")
+        else:
+            messagebox.showerror("eror","the whole blanks are fill \n first delete the letters") 
 
 #IMAGE
 img1 = ImageTk.PhotoImage(Image.open("stars.jpg"))
@@ -183,6 +210,58 @@ text20.set("y")
 entryword45 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text20,state="disabled")                    
 entryword45.place(x=380,y=410,width=60,height=60)
 
+################
+text21 = StringVar()
+text21.set("")
+entryword51 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text21)                    
+entryword51.place(x=110,y=475,width=60,height=60)
+
+text22 = StringVar()
+text22.set("")
+entryword52 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text22)                    
+entryword52.place(x=177,y=475,width=60,height=60)
+
+text23 = StringVar()
+text23.set("")
+entryword53 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text23)                    
+entryword53.place(x=245,y=475,width=60,height=60)
+
+text24 = StringVar()
+text24.set("o")
+entryword54 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text24,state="disabled")                    
+entryword54.place(x=313,y=475,width=60,height=60)
+
+text25 = StringVar()
+text25.set("r")
+entryword55 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text25,state="disabled")                    
+entryword55.place(x=380,y=475,width=60,height=60)
+
+############
+text26 = StringVar()
+text26.set("G")
+entryword61 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text26,state="disabled")                    
+entryword61.place(x=110,y=545,width=60,height=60)
+
+text27 = StringVar()
+text27.set("")
+entryword62 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text27)                    
+entryword62.place(x=177,y=545,width=60,height=60)
+
+text28 = StringVar()
+text28.set("")
+entryword63 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text28)                    
+entryword63.place(x=245,y=545,width=60,height=60)
+
+text29 = StringVar()
+text29.set("s")
+entryword64 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text29,state="disabled")                    
+entryword64.place(x=313,y=545,width=60,height=60)
+
+text30 = StringVar()
+text30.set("")
+entryword65 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text30)                    
+entryword65.place(x=380,y=545,width=60,height=60)
+
 
 #LABLE
 
@@ -203,6 +282,12 @@ rb3.place(x=460,y=360)
 
 rb4=Radiobutton(root,variable=a,value="word4")
 rb4.place(x=460,y=430)
+
+rb5=Radiobutton(root,variable=a,value="word5")
+rb5.place(x=460,y=500)
+
+rb6=Radiobutton(root,variable=a,value="word6")
+rb6.place(x=460,y=570)
 
 #BUTTON
 btn = Button(root,text="Check Answer",command=correct,font=('Georgia 15'))
