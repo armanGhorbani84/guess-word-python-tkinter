@@ -63,20 +63,20 @@ def hintword():
 
 
 #IMAGE
-img5 = ImageTk.PhotoImage(Image.open("stars.jpg"))
-lablephoto = Label(image=img5)
-lablephoto.pack()
-
-img1 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
+img1 = ImageTk.PhotoImage(Image.open("stars.jpg"))
 lablephoto = Label(image=img1)
-lablephoto.place(x=100,y=200)
+lablephoto.pack()
 
 img2 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
 lablephoto = Label(image=img2)
-lablephoto.place(x=600,y=200)
+lablephoto.place(x=100,y=200)
 
 img3 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
 lablephoto = Label(image=img3)
+lablephoto.place(x=600,y=200)
+
+img4 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
+lablephoto = Label(image=img4)
 lablephoto.place(x=1100,y=200)
 
 #ENTRY
