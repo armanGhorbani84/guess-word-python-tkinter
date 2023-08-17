@@ -338,6 +338,217 @@ text45 = StringVar()
 text45.set("")
 entryword95 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text45)                    
 entryword95.place(x=880,y=340,width=60,height=60)
+##########
+text46 = StringVar()
+text46.set("W")
+entryword101 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text46,state="disabled")                    
+entryword101.place(x=610,y=410,width=60,height=60)
+
+text47 = StringVar()
+text47.set("")
+entryword102 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text47)                    
+entryword102.place(x=675,y=410,width=60,height=60)
+
+text48 = StringVar()
+text48.set("t")
+entryword103 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text48,state="disabled")                    
+entryword103.place(x=745,y=410,width=60,height=60)
+
+text49 = StringVar()
+text49.set("")
+entryword104 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text49)                    
+entryword104.place(x=812,y=410,width=60,height=60)
+
+text50 = StringVar()
+text50.set("r")
+entryword105 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text50,state="disabled")                    
+entryword105.place(x=880,y=410,width=60,height=60)
+########
+text51 = StringVar()
+text51.set("S")
+entryword111 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text51,state="disabled")                    
+entryword111.place(x=610,y=475,width=60,height=60)
+
+text52 = StringVar()
+text52.set("k")
+entryword112 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text52,state="disabled")                    
+entryword112.place(x=675,y=475,width=60,height=60)
+
+text53 = StringVar()
+text53.set("")
+entryword113 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text53)                    
+entryword113.place(x=745,y=475,width=60,height=60)
+
+text54 = StringVar()
+text54.set("")
+entryword114 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text54)                    
+entryword114.place(x=812,y=475,width=60,height=60)
+
+text55 = StringVar()
+text55.set("")
+entryword115 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text55)                    
+entryword115.place(x=880,y=475,width=60,height=60)
+#########
+text56 = StringVar()
+text56.set("")
+entryword121 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text56)                    
+entryword121.place(x=610,y=545,width=60,height=60)
+
+text57 = StringVar()
+text57.set("")
+entryword122 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text57)                    
+entryword122.place(x=675,y=545,width=60,height=60)
+
+text58 = StringVar()
+text58.set("w")
+entryword123 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text58,state="disabled")                    
+entryword123.place(x=745,y=545,width=60,height=60)
+
+text59 = StringVar()
+text59.set("e")
+entryword124 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text59,state="disabled")                    
+entryword124.place(x=812,y=545,width=60,height=60)
+
+text60 = StringVar()
+text60.set("r")
+entryword125 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text60,state="disabled")                    
+entryword125.place(x=880,y=545,width=60,height=60)
+##########
+text61 = StringVar()
+text61.set("P")
+entryword131 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text61,state="disabled")                    
+entryword131.place(x=1110,y=205,width=60,height=60)
+
+text62 = StringVar()
+text62.set("r")
+entryword132 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text62,state="disabled")                    
+entryword132.place(x=1177,y=205,width=60,height=60)
+
+text63 = StringVar()
+text63.set("")
+entryword133 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text63)                    
+entryword133.place(x=1245,y=205,width=60,height=60)
+
+text64 = StringVar()
+text64.set("c")
+entryword134 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text64,state="disabled")                    
+entryword134.place(x=1313,y=205,width=60,height=60)
+
+text65 = StringVar()
+text65.set("")
+entryword135 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text65)                    
+entryword135.place(x=1380,y=205,width=60,height=60)
+###########
+text66 = StringVar()
+text66.set("O")
+entryword141 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text66,state="disabled")                    
+entryword141.place(x=1110,y=275,width=60,height=60)
+
+text67 = StringVar()
+text67.set("c")
+entryword142 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text67,state="disabled")                    
+entryword142.place(x=1177,y=275,width=60,height=60)
+
+text68 = StringVar()
+text68.set("")
+entryword143 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text68)                    
+entryword143.place(x=1245,y=275,width=60,height=60)
+
+text69 = StringVar()
+text69.set("")
+entryword144 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text69)                    
+entryword144.place(x=1313,y=275,width=60,height=60)
+
+text70 = StringVar()
+text70.set("n")
+entryword145 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text70,state="disabled")                    
+entryword145.place(x=1380,y=275,width=60,height=60)
+##########
+text71 = StringVar()
+text71.set("")
+entryword151 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text71)                    
+entryword151.place(x=1110,y=345,width=60,height=60)
+
+text72 = StringVar()
+text72.set("")
+entryword152 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text72)                    
+entryword152.place(x=1177,y=345,width=60,height=60)
+
+text73 = StringVar()
+text73.set("t")
+entryword153 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text73,state="disabled")                    
+entryword153.place(x=1245,y=345,width=60,height=60)
+
+text74 = StringVar()
+text74.set("o")
+entryword154 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text74,state="disabled")                    
+entryword154.place(x=1313,y=345,width=60,height=60)
+
+text75 = StringVar()
+text75.set("r")
+entryword155 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text75,state="disabled")                    
+entryword155.place(x=1380,y=345,width=60,height=60)
+#######
+
+text76 = StringVar()
+text76.set("A")
+entryword161 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text76,state="disabled")                    
+entryword161.place(x=1110,y=415,width=60,height=60)
+
+text77 = StringVar()
+text77.set("d")
+entryword162 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text77,state="disabled")                    
+entryword162.place(x=1177,y=415,width=60,height=60)
+
+text78 = StringVar()
+text78.set("u")
+entryword163 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text78,state="disabled")                    
+entryword163.place(x=1245,y=415,width=60,height=60)
+
+text79 = StringVar()
+text79.set("")
+entryword164 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text79)                    
+entryword164.place(x=1313,y=415,width=60,height=60)
+
+text80 = StringVar()
+text80.set("")
+entryword165 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text80)                    
+entryword165.place(x=1380,y=415,width=60,height=60)
+#######
+
+text81 = StringVar()
+text81.set("")
+entryword171 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text81)                    
+entryword171.place(x=1110,y=485,width=60,height=60)
+
+text82 = StringVar()
+text82.set("")
+entryword172 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text82)                    
+entryword172.place(x=1177,y=485,width=60,height=60)
+
+text83 = StringVar()
+text83.set("a")
+entryword173 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text83,state="disabled")                    
+entryword173.place(x=1245,y=485,width=60,height=60)
+
+text84 = StringVar()
+text84.set("c")
+entryword174 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text84,state="disabled")                    
+entryword174.place(x=1313,y=485,width=60,height=60)
+
+text85 = StringVar()
+text85.set("k")
+entryword175 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text85,state="disabled")                    
+entryword175.place(x=1380,y=485,width=60,height=60)
+########
+
+
+
+
+
+
+
+
 
 
 
