@@ -116,7 +116,7 @@ def correct():
             messagebox.showerror("eror","wrong answer \n try again")
             lable12 = Label(root,text="❌",font=('Georgia 25'),justify="center")
             lable12.place(x=50,y=550)
-    ########
+    #########
     elif a.get() == "word13":
         if entryword133.get() == "i" and entryword135.get() == "e":
             messagebox.showinfo("win","congratulations")
