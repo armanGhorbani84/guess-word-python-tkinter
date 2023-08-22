@@ -10,34 +10,112 @@ def correct():
     if a.get() == "word1":
         if entryword13.get() == "a" and entryword15.get() == "e":
             messagebox.showinfo("win","congratulations")
+            lable1 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable1.place(x=50,y=215)
         else :
             messagebox.showerror("eror","wrong answer \n try again")
+            lable1 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable1.place(x=50,y=215)
     elif a.get() == "word2":
         if entryword22.get() == "p" and entryword24.get() == "l":
             messagebox.showinfo("win","congratulations")
+            lable2 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable2.place(x=50,y=280)
         else :
             messagebox.showerror("eror","wrong answer \n try again")
+            lable2 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable2.place(x=50,y=280)
     elif a.get() == "word3":
         if entryword33.get() == "e" and entryword34.get() == "a":
             messagebox.showinfo("win","congratulations")
+            lable3 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable3.place(x=50,y=350)
         else :
             messagebox.showerror("eror","wrong answer \n try again")
+            lable3 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable3.place(x=50,y=350)
     elif a.get() == "word4":
         if entryword42.get() == "u" and entryword43.get() == "n" and entryword44.get() == "n":
             messagebox.showinfo("win","congratulations")
+            lable4 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable4.place(x=50,y=420)
         else :
             messagebox.showerror("eror","wrong answer \n try again")
+            lable4 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable4.place(x=50,y=420)
     elif a.get() == "word5":
         if entryword51.get() == "e" and entryword52.get() == "r" and entryword53.get() == "r":
             messagebox.showinfo("win","congratulations")
+            lable5 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable5.place(x=50,y=485)
         else :
             messagebox.showerror("eror","wrong answer \n try again")
+            lable5 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable5.place(x=50,y=485)
     elif a.get() == "word6":
         if entryword62.get() == "u" and entryword63.get() == "e" and entryword65.get() == "s":
             messagebox.showinfo("win","congratulations")
+            lable6 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable6.place(x=50,y=550)
         else :
             messagebox.showerror("eror","wrong answer \n try again")
-
+            lable6 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable6.place(x=50,y=550)
+    #######
+    elif a.get() == "word7":
+        if entryword72.get() == "a" and entryword73.get() == "r":
+            messagebox.showinfo("win","congratulations")
+            lable7 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable7.place(x=50,y=550)
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+            lable7 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable7.place(x=50,y=550)
+    elif a.get() == "word8":
+        if entryword81.get() == "f" and entryword85.get() == "t":
+            messagebox.showinfo("win","congratulations")
+            lable8 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable8.place(x=50,y=550)
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+            lable8 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable8.place(x=50,y=550)
+    elif a.get() == "word9":
+        if entryword94.get() == "e" and entryword95.get() == "o":
+            messagebox.showinfo("win","congratulations")
+            lable8 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable8.place(x=50,y=550)
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+            lable8 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable8.place(x=50,y=550)
+    elif a.get() == "word10":
+        if entryword102.get() == "a" and entryword104.get() == "e":
+            messagebox.showinfo("win","congratulations")
+            lable8 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable8.place(x=50,y=550)
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+            lable8 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable8.place(x=50,y=550)
+    elif a.get() == "word11":
+        if entryword113.get() == "i" and entryword114.get() == "l" and entryword115.get() == "l":
+            messagebox.showinfo("win","congratulations")
+            lable6 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable6.place(x=50,y=550)
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+            lable6 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable6.place(x=50,y=550)
+    elif a.get() == "word12":
+        if entryword121.get() == "p" and entryword122.get() == "o":
+            messagebox.showinfo("win","congratulations")
+            lable6 = Label(root,text="✅",font=('Georgia 25'),justify="center")
+            lable6.place(x=50,y=550)
+        else :
+            messagebox.showerror("eror","wrong answer \n try again")
+            lable6 = Label(root,text="❌",font=('Georgia 25'),justify="center")
+            lable6.place(x=50,y=550)
 #DEF HINT
 def hintword():
     if a.get() == "word1":
@@ -94,17 +172,17 @@ img1 = ImageTk.PhotoImage(Image.open("stars.jpg"))
 lablephoto = Label(image=img1)
 lablephoto.pack()
 
-img2 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
-lablephoto = Label(image=img2)
-lablephoto.place(x=100,y=200)
+# img2 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
+# lablephoto = Label(image=img2)
+# lablephoto.place(x=100,y=200)
 
-img3 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
-lablephoto = Label(image=img3)
-lablephoto.place(x=600,y=200)
+# img3 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
+# lablephoto = Label(image=img3)
+# lablephoto.place(x=600,y=200)
 
-img4 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
-lablephoto = Label(image=img4)
-lablephoto.place(x=1100,y=200)
+# img4 = ImageTk.PhotoImage(Image.open("gamenowpixel.png"))
+# lablephoto = Label(image=img4)
+# lablephoto.place(x=1100,y=200)
 
 #ENTRY
 text1 = StringVar()
@@ -542,18 +620,85 @@ entryword175 = Entry(root,font=('Georgia 40'),justify="center",textvariable = te
 entryword175.place(x=1380,y=485,width=60,height=60)
 ########
 
+text86 = StringVar()
+text86.set("W")
+entryword181 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text86,state="disabled")                    
+entryword181.place(x=1110,y=555,width=60,height=60)
 
+text87 = StringVar()
+text87.set("h")
+entryword182 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text87,state="disabled")                    
+entryword182.place(x=1177,y=555,width=60,height=60)
 
+text88 = StringVar()
+text88.set("")
+entryword183 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text88)                    
+entryword183.place(x=1245,y=555,width=60,height=60)
 
+text89 = StringVar()
+text89.set("l")
+entryword184 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text89,state="disabled")                    
+entryword184.place(x=1313,y=555,width=60,height=60)
 
+text90 = StringVar()
+text90.set("")
+entryword185 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text90)                    
+entryword185.place(x=1380,y=555,width=60,height=60)
+#######
 
+text91 = StringVar()
+text91.set("W")
+entryword191 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text91,state="disabled")                    
+entryword191.place(x=110,y=135,width=60,height=60)
 
+text92 = StringVar()
+text92.set("")
+entryword192 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text92)                    
+entryword192.place(x=177,y=135,width=60,height=60)
 
+text93 = StringVar()
+text93.set("")
+entryword193 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text93)                    
+entryword193.place(x=245,y=135,width=60,height=60)
 
+text94 = StringVar()
+text94.set("")
+entryword194 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text94)                    
+entryword194.place(x=313,y=135,width=60,height=60)
 
+text95 = StringVar()
+text95.set("g")
+entryword195 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text95,state="disabled")                    
+entryword195.place(x=380,y=135,width=60,height=60)
+#######
 
+text96 = StringVar()
+text96.set("s")
+entryword191 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text96,state="disabled")                    
+entryword191.place(x=610,y=135,width=60,height=60)
+
+text97 = StringVar()
+text97.set("")
+entryword192 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text97)                    
+entryword192.place(x=675,y=135,width=60,height=60)
+
+text98 = StringVar()
+text98.set("a")
+entryword193 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text98,state="disabled")                    
+entryword193.place(x=745,y=135,width=60,height=60)
+
+text99 = StringVar()
+text99.set("")
+entryword194 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text99)                    
+entryword194.place(x=812,y=135,width=60,height=60)
+
+text100 = StringVar()
+text100.set("e")
+entryword195 = Entry(root,font=('Georgia 40'),justify="center",textvariable = text100,state="disabled")                    
+entryword195.place(x=880,y=135,width=60,height=60)
 
 #LABLE
+
 
 
 
@@ -578,6 +723,31 @@ rb5.place(x=460,y=500)
 
 rb6=Radiobutton(root,variable=a,value="word6")
 rb6.place(x=460,y=570)
+######
+rb7=Radiobutton(root,variable=a,value="word7")
+rb7.place(x=960,y=220)
+
+rb8=Radiobutton(root,variable=a,value="word8")
+rb8.place(x=960,y=290)
+
+rb9=Radiobutton(root,variable=a,value="word9")
+rb9.place(x=960,y=360)
+
+rb10=Radiobutton(root,variable=a,value="word10")
+rb10.place(x=960,y=430)
+
+rb11=Radiobutton(root,variable=a,value="word11")
+rb11.place(x=960,y=500)
+
+rb12=Radiobutton(root,variable=a,value="word12")
+rb12.place(x=960,y=570)
+
+
+
+
+
+
+
 
 #BUTTON
 btn = Button(root,text="Check Answer",command=correct,font=('Georgia 15'))
@@ -585,6 +755,5 @@ btn.place(x=120,y=650)
 
 btnHint = Button(root,text="Hint",command=hintword,font=('Georgia 15'))
 btnHint.place(x=120,y=695)
-
 
 root.mainloop()
